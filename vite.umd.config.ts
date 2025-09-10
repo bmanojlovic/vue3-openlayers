@@ -139,6 +139,7 @@ export default defineConfig({
           "ol-ext/featureanimation/Teleport": "Teleport",
           "ol-ext/featureanimation/Zoom": "Zoom$1",
           "ol-ext/interaction/SelectCluster": "SelectCluster",
+          "ol-ext/interaction/Synchronize": "Synchronize",
           "ol-ext/interaction/Transform": "Transform$1",
           "ol-ext/layer/AnimatedCluster": "AnimatedCluster",
           "ol-ext/style/FlowLine": "FlowLine",

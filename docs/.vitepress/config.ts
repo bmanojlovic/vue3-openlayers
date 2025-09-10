@@ -405,6 +405,10 @@ export const config: UserConfig = {
                 link: "/componentsguide/interactions/snap/",
               },
               {
+                text: "ol-interaction-synchronize",
+                link: "/componentsguide/interactions/synchronize/",
+              },
+              {
                 text: "ol-interaction-transform",
                 link: "/componentsguide/interactions/transform/",
               },
