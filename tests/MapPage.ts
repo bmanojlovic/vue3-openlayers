@@ -32,7 +32,8 @@ export class MapPage {
   }
 
   async waitUntilCanvasLoaded() {
-    await this.page.waitForLoadState("networkidle", { timeout: 3000 });
+    await this.page.waitForSelector(".ol-map-fully-loaded", { timeout: 20000 });
+    await this.page.waitForTimeout(1000);
   }
 
   async waitMs(timeout: number) {

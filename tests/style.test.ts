@@ -37,7 +37,7 @@ test.describe("ol-style-flow-line", () => {
     const map = new MapPage(page);
     await map.goto("/componentsguide/styles/flowline/");
     await map.waitUntilReady();
-    await map.waitUntilCanvasLoaded();
+    await page.waitForTimeout(1000);
     await map.checkCanvasScreenshot();
   });
 });

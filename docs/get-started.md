@@ -6,7 +6,7 @@ vue3-openlayers works with the following versions which must be installed as pee
 
 - **[ol](https://openlayers.org/)**: `^10.6.0`
 - **[ol-contextmenu](https://github.com/jonataswalker/ol-contextmenu)**: `^5.5.0`
-- **[ol-ext](https://github.com/Viglino/ol-ext#,)**: `^4.0.34`
+- **[ol-ext](https://github.com/Viglino/ol-ext#,)**: `^4.0.38`
 - **[vue](https://github.com/vuejs/core/tree/main/packages/vue#readme)**: `^3.5.0`
 
 <!-- auto-generated-peer-dependency-requirements END -->
@@ -52,7 +52,8 @@ import App from "./App.vue";
 
 // The style are only needed for some map controls.
 // However, you can also style them by your own
-import "vue3-openlayers/styles.css";
+import "ol/ol.css";
+import "vue3-openlayers/vue3-openlayers.css";
 
 import OpenLayersMap from "vue3-openlayers";
 
@@ -69,7 +70,8 @@ import App from "./App.vue";
 
 // The style are only needed for some map controls.
 // However, you can also style them by your own
-import "vue3-openlayers/styles.css";
+import "ol/ol.css";
+import "vue3-openlayers/vue3-openlayers.css";
 
 import { Map, Layers, Sources } from "vue3-openlayers";
 

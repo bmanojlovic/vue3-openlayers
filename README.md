@@ -53,7 +53,7 @@ It can display maps with tiled, raster or vector layers loaded from different so
 
 - **[ol](https://openlayers.org/)**: `^10.6.0`
 - **[ol-contextmenu](https://github.com/jonataswalker/ol-contextmenu)**: `^5.5.0`
-- **[ol-ext](https://github.com/Viglino/ol-ext#,)**: `^4.0.34`
+- **[ol-ext](https://github.com/Viglino/ol-ext#,)**: `^4.0.38`
 - **[vue](https://github.com/vuejs/core/tree/main/packages/vue#readme)**: `^3.5.0`
 
 <!-- auto-generated-peer-dependency-requirements END -->

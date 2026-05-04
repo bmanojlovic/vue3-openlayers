@@ -1,5 +1,27 @@
 # Changelog
 
+## [12.2.2](https://github.com/MelihAltintas/vue3-openlayers/compare/v12.2.1...v12.2.2) (2026-02-24)
+
+
+### Bug Fixes
+
+* **deps:** downgrade @types/ol-ext to resolve type compatibility issues ([b5cb03d](https://github.com/MelihAltintas/vue3-openlayers/commit/b5cb03db38bc49068f68eb6a69546303822e6c5d))
+* **deps:** upgrade dependencies to fix critical security vulnerability with jspdf dependency ([312d4a7](https://github.com/MelihAltintas/vue3-openlayers/commit/312d4a776836c7884c43dfe89496ec24c39cffd4)), closes [#449](https://github.com/MelihAltintas/vue3-openlayers/issues/449)
+
+## [12.2.1](https://github.com/MelihAltintas/vue3-openlayers/compare/v12.2.0...v12.2.1) (2026-02-24)
+
+
+### Bug Fixes
+
+* **ol-map:** detach map target before child unmount to prevent tile source race ([#450](https://github.com/MelihAltintas/vue3-openlayers/issues/450)) ([10f0a55](https://github.com/MelihAltintas/vue3-openlayers/commit/10f0a555b594e280821a837f705215fa7b34a789))
+
+# [12.2.0](https://github.com/MelihAltintas/vue3-openlayers/compare/v12.1.1...v12.2.0) (2025-11-12)
+
+
+### Features
+
+* **ol-interaction-synchronize:** Add synchronize interaction ([#441](https://github.com/MelihAltintas/vue3-openlayers/issues/441)) ([7a77e99](https://github.com/MelihAltintas/vue3-openlayers/commit/7a77e99594fc9762d218faeb69797a8fa634d531))
+
 ## [12.1.1](https://github.com/MelihAltintas/vue3-openlayers/compare/v12.1.0...v12.1.1) (2025-09-06)
 
 

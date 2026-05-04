@@ -1,6 +1,6 @@
 {
   "name": "vue3-openlayers",
-  "version": "12.1.1",
+  "version": "12.2.2",
   "description": "OpenLayers Wrapper for Vue3",
   "sideEffects": false,
   "repository": {
@@ -187,17 +187,17 @@
     "@turf/helpers": "^7.2.0",
     "dom-to-image-more": "^3.7.1",
     "file-saver": "^2.0.5",
-    "jspdf": "^3.0.2",
+    "jspdf": "^4.2.0",
     "ol": "^10.6.0",
     "ol-contextmenu": "^5.5.0",
-    "ol-ext": "^4.0.34",
+    "ol-ext": "^4.0.38",
     "proj4": "^2.19.10",
     "vue": "^3.5.0"
   },
   "peerDependencies": {
     "ol": "^10.6.0",
     "ol-contextmenu": "^5.5.0",
-    "ol-ext": "^4.0.34",
+    "ol-ext": "^4.0.38",
     "vue": "^3.5.0"
   },
   "browserslist": [

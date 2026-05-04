@@ -8,7 +8,7 @@
 import VectorSource, { type Options } from "ol/source/Vector";
 import type VectorLayer from "ol/layer/Vector";
 import type HeatmapLayer from "ol/layer/Heatmap";
-import type { WebGLVectorLayer } from "../layers/WebGLVectorLayerClass";
+import WebGLVectorLayer from "ol/layer/WebGLVector";
 import type { Ref } from "vue";
 import { inject, provide, watch } from "vue";
 import type { VectorSourceEvents } from "@/composables/useOpenLayersEvents";

@@ -21,6 +21,7 @@ For more information please checkout the [`ol-source-vector` docs](../../sources
 
 <script setup lang="ts">
 import WebglVectorLayerDemo from "@demos/WebglVectorLayerDemo.vue"
+import WebglVectorLayerDemo2 from "@demos/WebglVectorLayerDemo2.vue"
 </script>
 
 <ClientOnly>
@@ -30,6 +31,20 @@ import WebglVectorLayerDemo from "@demos/WebglVectorLayerDemo.vue"
 ::: code-group
 
 <<< ../../../../src/demos/WebglVectorLayerDemo.vue
+
+:::
+
+### `variables`
+
+You can also filter features according to variables (inspired in this [openlayers example](https://openlayers.org/en/latest/examples/filter-webgl-line.html)).
+
+<ClientOnly>
+<WebglVectorLayerDemo2 />
+</ClientOnly>
+
+::: code-group
+
+<<< ../../../../src/demos/WebglVectorLayerDemo2.vue
 
 :::
 
@@ -47,3 +62,7 @@ import WebglVectorLayerDemo from "@demos/WebglVectorLayerDemo.vue"
     'stroke-color' : 'green',
     'stroke-width' : 2
 })`
+
+### variables
+
+- **Type**: `object`
