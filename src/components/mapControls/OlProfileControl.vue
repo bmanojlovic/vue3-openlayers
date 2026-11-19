@@ -2,7 +2,10 @@
   <div v-if="false"></div>
 </template>
 <script setup lang="ts">
-import Profile, { type Options } from "ol-ext/control/Profile";
+import Profile from "ol-ext/control/Profile";
+import type { Options as ControlOptions } from "ol/control/Control";
+import type Feature from "ol/Feature";
+import type { Style } from "ol/style";
 import { useAttrs } from "vue";
 import useControl from "@/composables/useControl";
 import usePropsAsObjectProperties from "@/composables/usePropsAsObjectProperties";
@@ -15,6 +18,26 @@ import {
 defineOptions({
   inheritAttrs: false,
 });
+
+// Options of ol-ext/control/Profile, declared here: @types/ol-ext 3.6.7 gives
+// the Profile class a `static prototype` member, which the Vue SFC compiler
+// (Babel) rejects while resolving an imported props type from that file.
+interface Options extends ControlOptions {
+  className?: string;
+  title?: string;
+  style?: Style;
+  selectStyle?: Style;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  info?: { [key: string]: any };
+  width?: number;
+  height?: number;
+  units: "metric" | "imperial";
+  feature?: Feature;
+  selectable?: boolean;
+  zoomable?: boolean;
+  numberFormat?: string;
+  skipFirst?: number;
+}
 
 const props = defineProps<Options>();
 // Missing typings for events, use any
